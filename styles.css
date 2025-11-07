@@ -547,7 +547,6 @@ body {
     text-decoration: none;
     color: #ffffff;
     padding:10px;
-    
     transition: 0.2s ease-in;
     animation: none;
     border: 2px solid transparent;
@@ -561,31 +560,12 @@ body {
     border-radius: 8px;
     animation: none;
     padding: 10px;
-    
   }
- 
-  .contenedor-imagen{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
-    padding: 10px 200px;
-    grid-row-gap: 17px; 
-    border-bottom: 1px solid #516478;
+  h3{
+    color: #1DCD9F;
+    font-size: 29px;
   }
-  .etiquetas{
-    width: 300px;
-    height: 300px;
-    cursor: pointer;
-    border-radius: 15px;
-    -webkit-box-shadow: 1px 5px 25px 8px rgba(12, 12, 12, 0.95);
-    -moz-box-shadow: 1px 5px 25px 8px rgba(31, 31, 31, 0.95);
-    box-shadow: 1px 5px 15px 8px rgba(21, 21, 21, 0.95);
-    transition: 1s;
-  }
-  .etiquetas:hover{
-    transform: scale(1.1);
-    transition: 1s;
-  }
+
   form{
     padding: 10px;
     
@@ -605,10 +585,11 @@ body {
     height: 300px;
     border-radius: 8px;
     cursor: pointer;
-    
+    transition: 1s;
   }
   .certificados:hover{
-
+    transform: scale(1.1);
+    transition: 1s;
   }
   .parrafo{
     color: rgb(255, 255, 255); 
@@ -635,7 +616,6 @@ body {
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
-    
   }
   a:hover{
     text-decoration: underline;
@@ -649,15 +629,6 @@ body {
     justify-content:center;
     text-align: center;
     transition: 0.5s;
-  }
-  
-  .link-cancion:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-    background-color: #ffffff;
-      a{
-        color:  #169976;
-      }
   }
   
   .texto-imagen{
@@ -683,5 +654,5 @@ body {
     padding-top: 60px;
   }
 
-  /* apartir de aui empieza
+ 
   
