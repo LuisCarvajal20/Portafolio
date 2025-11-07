@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Enlace sin movimiento</title>
+  <style>
+    a {
+      text-decoration: none;   /* Quita la subraya */
+      color: inherit;          /* Usa el color del texto padre */
+      cursor: pointer;         /* Manito al pasar el mouse */
+      transition: none;        /* Quita transiciones */
+      outline: none;           /* Evita contornos al enfocar */
+    }
+
+    a:hover,
+    a:focus {
+      text-decoration: none;   /* No cambia al pasar el mouse */
+      color: inherit;          /* Evita cambio de color */
+    }
+  </style>
+</head>
+<body>
+
+  <p>
+    Este es un <a href="#">enlace sin efectos</a>.
+  </p>
+
+</body>
+</html>
