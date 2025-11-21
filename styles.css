@@ -123,11 +123,11 @@ body {
   .tex_fron{
     font-size: 60px;
     color: #1DCD9F;
-    height: 10px;
+    
   }
   .tex_nom{
     font-size: 50px;
-    height: 20px;
+    
     color: #ffffff;
   }
   .link a {
@@ -168,8 +168,7 @@ body {
     justify-items: center;
   }
   .certificados{
-    width: 400px;
-    height: 300px;
+    width: 100%;
     border-radius: 8px;
     cursor: pointer;
     transition: 1s;
@@ -221,30 +220,7 @@ body {
     text-decoration: underline;
     color: #1DCD9F;
   }
-  .link-cancion{
-    border-radius: 8px;
-    padding: 10px;
-    width: 270px;
-    height: 55px;
-    justify-content:center;
-    text-align: center;
-    transition: 0.5s;
-  }
-  .texto-imagen{
-    color: #ffffff;
-    width: 270px;
-    height: 60px;
-    padding: 10px 10px;
-    justify-content:center;
-    border-radius: 8px;
-  }
-  .texto-imagen:hover{
-    color: #169976;
-    justify-content:center;
-    background-color: #ffffff;
-    transform: scale(1.1);
-    transition: 0.5s;
-  }
+ 
   .pie_pagina{
     text-align: center;
     color: #8f8f8f;
@@ -260,6 +236,7 @@ body {
   }
   nav{
     width: 100%;
+    position: fixed;
   }
   .menu-toggle {
     display: block;
@@ -381,14 +358,17 @@ body {
     border-bottom: 1px solid;
     
   }
+  .certificados{
+
+
+  }
   .tex_fron{
-    font-size: 45px;
+    font-size: 48px;
     color: #1DCD9F;
-    height: 10px;
+    
   }
   .tex_nom{
     font-size: 40px;
-    height: 20px;
     color: #ffffff;
   }
 }
