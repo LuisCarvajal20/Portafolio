@@ -199,6 +199,85 @@ body {
     border-bottom: 1px solid;
     box-sizing: border-box;
   }
+  .proyecto {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: left;
+  }
+  .proyecto h3 {
+    color: #1DCD9F;
+  }
+  .proyecto a {
+    color: #169976;
+    text-decoration: none;
+  }
+  .proyecto a:hover {
+    text-decoration: underline;
+  }
+  .Habilidades {
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+  }
+  .Habilidades ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .Habilidades li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .Habilidades li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+  .Contacto {
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+  }
+  .Contacto a {
+    color: #169976;
+    text-decoration: none;
+  }
+  .Contacto a:hover {
+    text-decoration: underline;
+  }
+  .Contacto a[download] {
+    background: #1DCD9F;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .Contacto a[download]:hover {
+    background: #169976;
+    color: #fff;
+  }
   .Certificaciones{
     color: rgb(255, 255, 255); 
     font-size: 20px;

@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./styles.css">
     <title>Portafolio Luis Carvajal</title>
     
@@ -29,30 +30,45 @@
         </div>
         <div class="navbar_links" >
             <ul class="navbar" id="navbar">
-                <li class="link" style="--delay:0.1s"><a href="/">Inicio</a></li>
-                <li class="link" style="--delay:0.2s"><a href="/">Acerca de mi</a></li>
-                <li class="link" style="--delay:0.3s"><a href="/">Proyectos</a></li>
-                <li class="link" style="--delay:0.4s"><a href="/">Certificaciones</a></li>
-                <li class="link" style="--delay:0.5s"><a href="/">Contacto</a></li>
+                <li class="link" style="--delay:0.1s"><a href="#inicio">Inicio</a></li>
+                <li class="link" style="--delay:0.2s"><a href="#acerca">Acerca de mí</a></li>
+                <li class="link" style="--delay:0.3s"><a href="#proyectos">Proyectos</a></li>
+                <li class="link" style="--delay:0.4s"><a href="#certificaciones">Certificaciones</a></li>
+                <li class="link" style="--delay:0.5s"><a href="#contacto">Contacto</a></li>
                 
             </ul>
             <div id="overlay" class="overlay"></div>
         </div>
     </nav>
-    <div class="titulo1">
+    <div class="titulo1" id="inicio">
         <h2 class="tex_fron">Frontend Developer</h2>
-        <h2 class="tex_nom">Luis Carvajal</h2>
+        <h2 class="tex_nom">Luis Alejandro Carvajal Carvajal</h2>
     </div>
-    <div class="Acerca__de_mi">
-        <h2>Acerca de mi</h2>
+    <div class="Acerca__de_mi" id="acerca">
+        <h2>Acerca de mí</h2>
         <p>
-            Soy un joven universitario, actualmente estudiando Ing electronica en la Univeridad Francisco de Paula Santander de Cúcuta colombia, atravesando el 8vo semestre, con grades ambiciones tecnologicas siempre con deseo de aprender mas y especializarme en lo que me gusta y pueda aportar, soy bueno en las relaciones interpersonales trato de llevar un buen ambiente laborar y llevar los proyectos en equipo de la mejor manera y aprender de mis compañeros y del lead developer, soy una persona obediente y sencilla.
+            Soy Luis Alejandro Carvajal Carvajal, un estudiante de Ingeniería Electrónica apasionado por el desarrollo web. Me especializo en tecnologías frontend como HTML, CSS y JavaScript, y estoy aprendiendo Node.js y React para expandir mis habilidades en el backend y aplicaciones modernas. Siempre busco aprender más y contribuir en proyectos colaborativos.
         </p>
     </div>
-    <div class="Proyectos">
+    <div class="Proyectos" id="proyectos">
         <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>Empresa de Poligrafía SAI</h3>
+            <p>Un sitio web desarrollado para una empresa de poligrafía, utilizando tecnologías web modernas para una presentación profesional y funcional.</p>
+            <a href="https://saipoligrafia.com/" target="_blank">Ver Proyecto</a>
+        </div>
     </div>
-    <div class="Certificaciones">
+    <div class="Habilidades" id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+            <li><i class="fab fa-js-square"></i> JavaScript</li>
+            <li><i class="fab fa-node-js"></i> Node.js (Estudiando)</li>
+            <li><i class="fab fa-react"></i> React (Estudiando)</li>
+        </ul>
+    </div>
+    <div class="Certificaciones" id="certificaciones">
        <h2>Certificaciones</h2>
        <div class="todos_certificados">
         <div>
@@ -64,8 +80,16 @@
     </div>
     </div>
     
+    <div class="Contacto" id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: <a href="mailto:luisalejandrocarvajal16@gmail.com">luisalejandrocarvajal16@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/luis-alejandro-carvajal-carvajal-a4b81a309" target="_blank">Perfil de LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/LuisCarvajal20" target="_blank">Perfil de GitHub</a></p>
+        <p>Descargar CV: <a href="./CV_Luis_Alejandro_Carvajal.docx" download>Descargar CV</a></p>
+    </div>
+
     <div class="pie_pagina">
-        <p>Todos los derechos recervados</p>
+        <p>Todos los derechos reservados</p>
     </div>
 
     <script src="./Main.js"></script>
